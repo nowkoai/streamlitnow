@@ -16,7 +16,7 @@ def sidebar_parm():
     fps_val = st.sidebar.slider('フレームレート', 1, 100, 50)
 
     uploaded_mv_file = None
-    if mode == '動画ファイル選択':
+    if mode == '動画ファイル選択！':
         uploaded_mv_file = st.sidebar.file_uploader("動画ファイルアップロード", type='mp4')
         if uploaded_mv_file is not None:
             st.sidebar.video(uploaded_mv_file)
