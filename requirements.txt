@@ -1,0 +1,4 @@
+cv2
+mediapipe
+numpy
+streamlit==1.11.1
